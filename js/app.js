@@ -39,8 +39,8 @@ function nuevaFruta(fruta){
 }
 function eliminarFruta(e){
     const nombreFruta = e.target.textContent
-    cal -= calFrutas[nombreFruta];
+    cal -= calFrutas[nombreFruta]; //elimina la fruta seleccionada
 
-    infoNutricional.textContent = cal + " " + "Calorias totales";
+    infoNutricional.textContent = cal + " " + "Calorias totales"; 
     e.target.remove();
 }
