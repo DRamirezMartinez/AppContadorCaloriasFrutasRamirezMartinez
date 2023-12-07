@@ -1,3 +1,13 @@
+const express = require("express");
+const cors = require("cors");
+
+const corsOptions = {
+  origin: "http://127.0.0.1:5173",
+};
+
+const app = express();
+app.use(cors(corsOptions));
+
 const formFruta = document.querySelector("#valorIntroducido form");
 const listaFrutas = document.querySelector("#seccionFrutas ul");
 const infoNutricional = document.querySelector("#seccionNutricional p");
