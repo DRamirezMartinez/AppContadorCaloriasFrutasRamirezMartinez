@@ -1,12 +1,3 @@
-const express = ("express"); //cors
-const cors = ("cors");
-
-const corsOptions = {
-  origin: "http://127.0.0.1:5173",
-};
-
-const app = express();
-app.use(cors(corsOptions));
 
 const formFruta = document.querySelector("#valorIntroducido form");
 const listaFrutas = document.querySelector("#seccionFrutas ul");
