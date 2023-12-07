@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(to right, #4E2394, #DBC9F5); width: 100%; height: 200px;
+}
+
+.tituloPrincipal{
+    color: white;
+    font-weight: bold;
+}
+
+.label{
+    color: white;
+}
+
+#seccionFrutas{
+    color: white;
+    cursor: pointer;
+}
+
+#seccionNutricional{
+    color: white;
+}
