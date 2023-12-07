@@ -1,5 +1,5 @@
-const express = require("express");
-const cors = require("cors");
+const express = ("express");
+const cors = ("cors");
 
 const corsOptions = {
   origin: "http://127.0.0.1:5173",
