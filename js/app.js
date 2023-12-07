@@ -1,4 +1,4 @@
-const express = ("express");
+const express = ("express"); //cors
 const cors = ("cors");
 
 const corsOptions = {
